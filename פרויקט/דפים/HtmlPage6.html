@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>הזמנת כרטיסים</title>
+    <link href="../StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body dir="rtl" style="background-image: url('../תמונות לצדדים/כללי 438.jpg');">
+    <header style="top:2vh;margin-bottom:5vh;font-family:Fb Crayola;font-size:13vh;">הזמנות</header>
+    <section>
+        <div class="hazmana" style="margin-right:0">
+            <form>
+                <h1>פרטים:</h1>
+                <laqbe class="haz_ki">שם פרטי:</laqbe>
+                <input type="text" />
+                <br />
+                <br />
+                <label class="haz_ki req">שם משפחה:</label>
+                <input required type="text" />
+                <br />
+                <br />
+                <label class="haz_ki req">טלפון:</label>
+                <input required type="text" />
+                <br />
+                <br />
+                <label class="haz_ki">מייל:</label>
+                <input  type="text" />
+                <br />
+                <br />
+                <label class="haz_ki">מספר מקומות נשים:</label>
+                <input type="number" min="0" max="20" />
+                <br />
+                <br />
+                <label class="haz_ki">מספר מקומות גברים:</label>
+                <input type="number" min="0" max="20" />
+            </form>
+        </div>
+        <div class="hazmana">
+            <form  action="פרטים.html">
+                <h1>תשלום במזומן:</h1>
+                <label>להלן מקומות שבהם ניתן להשיג כרטיסים:</label>
+                <br />
+                <br />
+                <select>
+                    <option>אופקים</option>
+                    <option>אשדוד</option>
+                    <option>בית-שמש</option>
+                    <option>ביתר</option>
+                    <option>בני-ברק</option>
+                    <option>הוד-השרון</option>
+                    <option>הרצליה</option>
+                    <option>ירושלים</option>
+                    <option>מודיעין-עילית</option>
+                    <option>קרית-ספר</option>
+                    <option>רמת-השרון</option>
+                </select>
+                <h1>תשלום בכרטיס אשראי:</h1>
+                <lable class="haz_ki">מספר ת"ז:</lable>
+                <input  type="text" maxlength="9" />
+                <br />
+                <br />
+                <lable class="haz_ki">מספר כרטיס אשראי:</lable>
+                <input  type="text" maxlength="12" />
+                <br />
+                <br />
+                <label class="haz_ki">תוקף כרטיס אשראי:</label>
+                <input type="date" />
+                <br />
+                <br />
+                <lable class="haz_ki">גב הכרטיס:</lable>
+                <input type="text" maxlength="3" />
+                <br />
+                <br />
+                <input class="btn"  type="submit" value="אשר" />
+            </form>
+        </div>
+    </section>
+
+    <center> <a href="HtmlPage5.html"><p style="color:black; margin-top:8vh;text-align:center<!--;border-color:white;border-style:solid-->">להזמנות נוספות</p></a></center>
+
+</body>
+</html>

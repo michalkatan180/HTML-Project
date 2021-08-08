@@ -1,0 +1,44 @@
+﻿
+body {
+    background-image: url('תמונות סמל/בני פרידמן.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution:from-image; 
+
+}
+.odot {
+    text-align: center;
+    font-size:2.5vh;
+    font-family: Fb Bokertov;
+    color: black;
+    width: 61vw;
+    margin: auto;
+}
+h1{ 
+    text-align: center;
+    font-size:4vh;
+    font-family: Fb Bokertov;
+    color: black;
+    width: 61vw;
+    margin: auto;
+}
+#odot_img {
+    display: block;
+    width: 40vw;
+    margin-top: 5vh;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+#seker {
+    text-align: center;
+    margin-right: 5vw;
+    font-size:3vh;
+    font-family: Fb Bokertov;
+    color: black;
+    width:71vw;
+    background-color:#ffffff;
+    opacity:0.6;
+
+
+}

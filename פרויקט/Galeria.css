@@ -1,0 +1,125 @@
+﻿* {
+    vertical-align: top;
+}
+
+body {
+    background-image: url('תמונות לצדדים/כללי 438.jpg');
+}
+
+.allhoki {
+    width: 100vw;
+    color: black;
+}
+
+.hoki {
+    width: 50vw;
+    display: table-cell;
+    color: black;
+}
+
+.hofaotk {
+    display: block;
+    text-align: left;
+    top: 1vh;
+    text-decoration: none;
+    font-family: Fb Concept Black;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+    color: #808080;
+    font-size: 3vh;
+}
+
+.hoki video {
+    width:25vw;
+}
+
+.album {
+    width: 90vw;
+    display: inline-block;
+    margin-right: 7vh;
+    margin-top: 17vh;
+    margin-bottom: 1vw;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: white;
+opacity:0.7;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+.album_ki {
+    margin-top: 1vh;
+    margin-right: 5vw;
+    display: inline-block;
+    font-size: 2.5vh;
+    font-family: Fb Bokertov;
+    color: black;
+    width: 13vw;
+}
+
+.songWrapper {
+    width: 80vw;
+    display: block;
+    height: auto;
+}
+
+.song {
+    margin-right: 5vw;
+    width: 55vw;
+    display: inline-block;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 2.3vh;
+}
+
+.a {
+    display: inline;
+    width: 10vw;
+    margin-bottom: 4vw;
+    margin-right: 0.5vh;
+    color: white;
+}
+
+.galeriya_big {
+    display: inline-block;
+    width: 18vw;
+    /*background-color: white;*/
+    /*height: 36vh;*/
+    font-family: Fb Bokertov;
+    font-size: 12vh;
+    text-decoration: none;
+    text-align: center;
+    /*padding-top: 1.5vh;*/
+    margin-right: 4vw;
+    margin-top: 15vh;
+    opacity: 0.8;
+    color: #ffffff;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+ .galeriya_big:hover {
+        color:red;
+        text-shadow: 0 0 7px #ffffff;
+    }
+
+#animate2 {
+    background-image: url('תמונות לצדדים/pic55555.jpg');
+    background-repeat: repeat-y;
+    background-position: 0vh;
+    animation-name: bgMove;
+    animation-iteration-count: infinite;
+    animation-duration: 300s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+}
+
+@keyframes bgMove {
+    0% {
+        background-position-y: 0vh;
+    }
+
+    100% {
+        background-position-y: 3000vh;
+    }
+}

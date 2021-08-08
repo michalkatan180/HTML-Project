@@ -1,0 +1,43 @@
+﻿body {
+background-image: url('תמונות לצדדים/בני6.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+.p {
+    position: relative;
+    bottom: 2vh;
+    width: 32vw;
+    height:auto;
+    margin-right: 10vh;
+}
+
+.profil {
+    display: inline-block;
+    width: 4vw;
+    margin-top: 3vh;
+    position: absolute;
+    margin-right: 1vw;
+}
+
+.profil_div {
+    opacity:0.6;
+    margin-right: 7vw;
+    display: block;
+    width: 40vw;
+    margin-top: 1vw;
+    height:auto;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: white;
+    top: 60vh;
+}
+
+#tgovot {
+    margin-top: 30vh;
+    margin-right: 60vw;
+}
+textarea {
+    height: 11vh;
+    width: 25vw;
+}

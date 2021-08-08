@@ -1,0 +1,90 @@
+﻿* {
+    vertical-align: top;
+
+}
+body {
+    background-color: #eae7e7;
+}
+#semelbig {
+    display: block;
+    height:70vh;
+    margin-right:18vw;
+    top:0vh; 
+}
+#headerfirst {
+    background-color: #808080;
+    position: absolute;
+    font-family: Forte;
+    font-size:7vh;
+    text-align: center;
+    height: 10vh;
+    color: white;
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+    width: 100vw;
+    top: 0vh;
+    display:inline-block;
+}
+.hadash {
+   
+    width: 17vw; 
+    height:68vh;
+    display: inline-block;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+   margin-right:79vw;
+}
+.hadash_img{
+  display: block; 
+ width:9vw;
+    margin:auto;
+}
+.hadash_ki
+{
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+
+#animate1 {
+    animation-name: bigSmall;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+#togo {
+    bottom: 7vh;
+    position: absolute;
+    animation-name: togo;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    font-family: Forte;
+    font-size:3vh;
+}
+@keyframes togo{
+    0% {
+       right:0vw;
+    }
+
+    50% {
+        right:50vw;
+    }
+
+    100% {
+        right:78vw;
+    }
+}
+@keyframes bigSmall{
+    0% {
+        font-size: 2.5vh;
+    }
+    50% {
+        font-size: 4vh;
+    }
+    100% {
+        font-size: 2.5vh;
+    }
+}
